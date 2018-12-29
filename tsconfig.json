@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "./tmp",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2016",
+//    "types": ["node"],
+    "typeRoots": ["node_modules/@types", "src/typings"],
+    "lib": ["es2017"],
+    "mapRoot": "./",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "importHelpers": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "allowJs": false
+  },
+  "exclude": ["node_modules", "asyncAwait"]
+}

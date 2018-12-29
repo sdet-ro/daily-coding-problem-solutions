@@ -1,0 +1,35 @@
+{
+  "name": "dcp",
+  "version": "0.0.1",
+  "description": "coding problems and algorithms",
+  "main": "package.json",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdet-ro/daily-coding-problem-solutions.git"
+  },
+  "keywords": [
+    "coding",
+    "problems",
+    "coding",
+    "solutions",
+    "coding",
+    "algorithms",
+    "learn",
+    "coding"
+  ],
+  "author": "Eduard Clain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdet-ro/daily-coding-problem-solutions/issues"
+  },
+  "homepage": "https://github.com/sdet-ro/daily-coding-problem-solutions#readme",
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18"
+  }
+}
